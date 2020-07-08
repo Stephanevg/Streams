@@ -1,4 +1,7 @@
 # Streams
+
+![Schedule](https://github.com/Stephanevg/Streams/blob/master/CodingBrix%20-%20Twitch.png)
+
 Contains code of my live streams
 
 # Content
