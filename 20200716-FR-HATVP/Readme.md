@@ -24,6 +24,9 @@ Soit un fichier (de 30 Mo) avec toutes les déclarations de chaque déclarant au
 
 > Ce dernier fichier appeler `declarations.xml` est le fichier de base que nous aurons besoin pour notre module powershell. Il sera livré avec le module au format `.zip`, et exporter à la premiere chargement du module.
 
+Les architectures discutés on été l'objet du diagram suivant:
+
+![image](./Images/Architecture_oo1.png)
 
 # Liens
 
