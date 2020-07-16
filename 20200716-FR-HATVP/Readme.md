@@ -26,7 +26,7 @@ Soit un fichier (de 30 Mo) avec toutes les déclarations de chaque déclarant au
 
 Les architectures discutés on été l'objet du diagram suivant:
 
-![image](./Images/Architecture_oo1.png)
+![image](./Images/Architecture_001.png)
 
 # Liens
 
