@@ -1,0 +1,257 @@
+Intitulé;Description;Xpath
+Declaration;Nœud mère de la déclaration;/declaration
+Date de dépôt;Date de dépôt de la déclaration sur le téléservice;/declaration/dateDepot
+UUID;Identifiant Universel Unique;/declaration/uuid
+Origine;Téléservice utilisé par déposer la déclaration;/declaration/origine
+Complete;Déclaration complète ou non;/declaration/complete
+Pièces jointes;Pièces jointes de la déclaration;/declaration/attachedFiles/attachedFiles
+Nom du fichier;Nom du fichier de la pièce jointe;/declaration/attachedFiles/attachedFiles/fileName
+Nom du fichier sur le serveur;Nom du fichier sur le serveur de la pièce jointe;/declaration/attachedFiles/attachedFiles/serverFileName
+Les immeubles bâtis et non bâtis;;/declaration/immeubleDto/
+ID;;/declaration/immeubleDto/items/items/motif/id
+Label;;/declaration/immeubleDto/items/items/motif/label
+Commentaire;Commentaire du déclarant sur la rubrique;/declaration/immeubleDto/items/items/commentaire
+Conservee;Indique si le patrimoine est conservé;/declaration/immeubleDto/items/items/conservee
+Nature;Nature du bien;/declaration/immeubleDto/items/items/nature
+Adresse;Adresse du bien;/declaration/immeubleDto/items/items/adresse
+Code postal;Code postal de l'adresse;/declaration/immeubleDto/items/items/codePostal
+Localité;Commune;/declaration/immeubleDto/items/items/localite
+Superficie Bati;Superficie du bâti;/declaration/immeubleDto/items/items/superficieBati
+Superficie Non Bati;Superficie du non bâti;/declaration/immeubleDto/items/items/superficieNonBati
+Date Acquisition;Année d’acquisition;/declaration/immeubleDto/items/items/dateAcquisition
+Origine;Mode d’acquisition;/declaration/immeubleDto/items/items/origine
+Droit Réel;Droit réel;/declaration/immeubleDto/items/items/droitReel
+Quote-part;Quote-part détenu sur ce bien;/declaration/immeubleDto/items/items/quotePart
+Prix Acquisition;Valeur du bien au moment où il est entré dans le patrimoine;/declaration/immeubleDto/items/items/prixAcquisition
+Prix Travaux;Montant des travaux;/declaration/immeubleDto/items/items/prixTravaux
+Valeur vénale;Valeur vénale;/declaration/immeubleDto/items/items/valeurVenale
+Régime juridique du bien;Nature juridique du bien;/declaration/immeubleDto/items/items/regimeJuridique
+Néant;Indique que le déclarant précise ne rien avoir à déclarer;/declaration/immeubleDto/neant
+Les parts de sociétés civiles immobilières;;/declaration/sciDto/
+Néant;Indique que le déclarant précise ne rien avoir à déclarer;/declaration/sciDto/neant
+ID;;/declaration/sciDto/items/items/motif/id
+Label;;/declaration/sciDto/items/items/motif/label
+Commentaire;Commentaire sur la SCI;/declaration/sciDto/items/items/commentaire
+Conservee;Indique si le patrimoine est conservé;/declaration/sciDto/items/items/conservee
+Dénomination;Dénomination de la SCI;/declaration/sciDto/items/items/denomination
+Droit réel;Droit réel exercé sur les parts;/declaration/sciDto/items/items/droitReel
+Capital Détenu;Pourcentage du capital détenu;/declaration/sciDto/items/items/capitalDetenu
+Autre actif;Autres éléments de l’actif;/declaration/sciDto/items/items/autreActif
+Passif;Passif détaillé;/declaration/sciDto/items/items/passif
+Valeur;Valeur vénale des parts;/declaration/sciDto/items/items/valeur
+Néant;Indique que le déclarant précise ne rien avoir à déclarer;/declaration/sciDto/items/items/immeublesSci/neant
+ID;;/declaration/sciDto/items/items/immeublesSci/immeublesSci/motif/id
+Label;;/declaration/sciDto/items/items/immeublesSci/immeublesSci/motif/label
+Commentaire;Commentaire du déclarant sur la rubrique;/declaration/sciDto/items/items/immeublesSci/immeublesSci/commentaire
+Conservee;Indique si le patrimoine est conservé;/declaration/sciDto/items/items/immeublesSci/immeublesSci/conservee
+Nature;Nature du bien;/declaration/sciDto/items/items/immeublesSci/immeublesSci/nature
+Adresse;Adresse du bien;/declaration/sciDto/items/items/immeublesSci/immeublesSci/adresse
+Code postal;Code postal de l'adresse;/declaration/sciDto/items/items/immeublesSci/immeublesSci/codePostal
+Localité;Commune;/declaration/sciDto/items/items/immeublesSci/immeublesSci/localite
+Superficie Bati;Superficie du bâti;/declaration/sciDto/items/items/immeublesSci/immeublesSci/superficieBati
+Superficie Non Bati;Superficie du non bâti;/declaration/sciDto/items/items/immeublesSci/immeublesSci/superficieNonBati
+Date Acquisition;Année d’acquisition;/declaration/sciDto/items/items/immeublesSci/immeublesSci/dateAcquisition
+Origine;Mode d’acquisition;/declaration/sciDto/items/items/immeublesSci/immeublesSci/origine
+Droit Réel;Droit réel;/declaration/sciDto/items/items/immeublesSci/immeublesSci/droitReel
+Quote-part;Quote-part détenu sur ce bien;/declaration/sciDto/items/items/immeublesSci/immeublesSci/quotePart
+Prix Acquisition;Valeur du bien au moment où il est entré dans le patrimoine;/declaration/sciDto/items/items/immeublesSci/immeublesSci/prixAcquisition
+Prix Travaux;Montant des travaux;/declaration/sciDto/items/items/immeublesSci/immeublesSci/prixTravaux
+Valeur vénale;Valeur vénale;/declaration/sciDto/items/items/immeublesSci/immeublesSci/valeurVenale
+Les autres valeurs mobilières non cotées en bourse;;/declaration/valeursNonEnBourseDto/
+ID;;/declaration/valeursNonEnBourseDto/items/items/motif/id
+Label;;/declaration/valeursNonEnBourseDto/items/items/motif/label
+Commentaire;Commentaire du déclarant sur la rubrique;/declaration/valeursNonEnBourseDto/items/items/commentaire
+Conservee;Indique si le patrimoine est conservé;/declaration/valeursNonEnBourseDto/items/items/conservee
+Dénomination;Dénomination de la société;/declaration/valeursNonEnBourseDto/items/items/denomination
+Valeur actuelle;Valeur vénale;/declaration/valeursNonEnBourseDto/items/items/valeurActuelle
+Participation;Pourcentage du capital social détenu;/declaration/valeursNonEnBourseDto/items/items/participation
+Droit réel;Droit réel exercé sur les parts;/declaration/valeursNonEnBourseDto/items/items/droitReel
+Néant;Indique que le déclarant précise ne rien avoir à déclarer;/declaration/valeursNonEnBourseDto/neant
+Les autres valeurs mobilières non cotées en bourse;;/declaration/valeursEnBourseDto/
+ID;;/declaration/valeursEnBourseDto/items/items/motif/id
+Label;;/declaration/valeursEnBourseDto/items/items/motif/label
+Commentaire;Commentaire du déclarant sur la rubrique;/declaration/valeursEnBourseDto/items/items/commentaire
+Conservee;Indique si le patrimoine est conservé;/declaration/valeursEnBourseDto/items/items/conservee
+Titulaire;Nom et prénom du titulaire;/declaration/valeursEnBourseDto/items/items/titulaire
+Établissement;Établissement;/declaration/valeursEnBourseDto/items/items/etablissement
+Numéro de compte;Numéro de compte;/declaration/valeursEnBourseDto/items/items/numeroCompte
+Nature du placement;Nature du placement;/declaration/valeursEnBourseDto/items/items/naturePlacement
+Valeur;Solde ou valeur à la date de la déclaration;/declaration/valeursEnBourseDto/items/items/valeur
+Néant;Indique que le déclarant précise ne rien avoir à déclarer;/declaration/valeursEnBourseDto/neant
+Les assurances vie;;/declaration/assuranceVieDto/
+ID;;/declaration/assuranceVieDto/items/items/motif/id
+Label;;/declaration/assuranceVieDto/items/items/motif/label
+Commentaire;Commentaire du déclarant sur la rubrique;/declaration/assuranceVieDto/items/items/commentaire
+Conservee;Indique si le patrimoine est conservé;/declaration/assuranceVieDto/items/items/conservee
+Titulaire;Nom et prénom du souscripteur du contrat;/declaration/assuranceVieDto/items/items/souscripteur
+Etablissement;Nom de l’établissement teneur du contrat;/declaration/assuranceVieDto/items/items/etablissement
+Numéro Compte;Référence du contrat;/declaration/assuranceVieDto/items/items/reference
+Date souscription;Date de souscription;/declaration/assuranceVieDto/items/items/dateSouscription
+Valeur rachat;Valeur de rachat;/declaration/assuranceVieDto/items/items/valeurRachat
+Néant;Indique que le déclarant précise ne rien avoir à déclarer;/declaration/assuranceVieDto/neant
+Les comptes bancaires courants et les produits d’épargne;;/declaration/comptesBancaireDto/
+ID;;/declaration/comptesBancaireDto/items/items/motif/id
+Label;;/declaration/comptesBancaireDto/items/items/motif/label
+Commentaire;Commentaire du déclarant sur la rubrique;/declaration/comptesBancaireDto/items/items/commentaire
+Conservee;Indique si le patrimoine est conservé;/declaration/comptesBancaireDto/items/items/conservee
+Type de compte;Nature du compte ;/declaration/comptesBancaireDto/items/items/typeCompte
+Établissement;Nom de l’établissement bancaire teneur du compte;/declaration/comptesBancaireDto/items/items/etablissement
+Numéro Compte;Numéro de compte;/declaration/comptesBancaireDto/items/items/numeroCompte
+Titulaire;Nom et prénom du titulaire;/declaration/comptesBancaireDto/items/items/titulaire
+Valeur;Solde du compte;/declaration/comptesBancaireDto/items/items/valeur
+Néant;Indique que le déclarant précise ne rien avoir à déclarer;/declaration/comptesBancaireDto/neant
+Les biens mobiliers divers, lorsque leur valeur unitaire est égale ou supérieure à 10 000 €;;/declaration/bienDiverDto/
+ID;;/declaration/bienDiverDto/items/items/motif/id
+Label;;/declaration/bienDiverDto/items/items/motif/label
+Commentaire;Commentaire du déclarant sur la rubrique;/declaration/bienDiverDto/items/items/commentaire
+Conservee;Indique si le patrimoine est conservé;/declaration/bienDiverDto/items/items/conservee
+Description;Description du bien;/declaration/bienDiverDto/items/items/description
+Valeur;Valeur vénale du bien;/declaration/bienDiverDto/items/items/valeur
+Type d'estimation;Méthode d’estimation;/declaration/bienDiverDto/items/items/typeEstimation
+Néant;Indique que le déclarant précise ne rien avoir à déclarer;/declaration/bienDiverDto/neant
+Les véhicules à moteur;;/declaration/vehiculeDto/
+ID;;/declaration/vehiculeDto/items/items/motif/id
+Label;;/declaration/vehiculeDto/items/items/motif/label
+Commentaire;Commentaire du déclarant sur la rubrique;/declaration/vehiculeDto/items/items/commentaire
+Conservee;Indique si le patrimoine est conservé;/declaration/vehiculeDto/items/items/conservee
+Nature;Nature du véhicule;/declaration/vehiculeDto/items/items/nature
+Marque;Marque du véhicule;/declaration/vehiculeDto/items/items/marque
+Année Achat;Année d’acquisition;/declaration/vehiculeDto/items/items/anneeAchat
+Valeur Achat;Valeur d’acquisition;/declaration/vehiculeDto/items/items/valeurAchat
+Valeur;Valeur vénale;/declaration/vehiculeDto/items/items/valeur
+Néant;Indique que le déclarant précise ne rien avoir à déclarer;/declaration/vehiculeDto/neant
+Les fonds de commerce, les clientèles, les charges et les offices;;/declaration/fondDto/
+ID;;/declaration/fondDto/items/items/motif/id
+Label;;/declaration/fondDto/items/items/motif/label
+Commentaire;Commentaire du déclarant sur la rubrique;/declaration/fondDto/items/items/commentaire
+Conservee;Indique si le patrimoine est conservé;/declaration/fondDto/items/items/conservee
+Nature;Type de bien concerné;/declaration/fondDto/items/items/nature
+Description;Description de l’activité;/declaration/fondDto/items/items/description
+Actif;Montant des actifs à la date du fait générateur de la déclaration;/declaration/fondDto/items/items/actif
+Endettement;Montant de l’endettement à la date du fait générateur de la déclaration;/declaration/fondDto/items/items/endettement
+Résultat fiscal;Résultat fiscal de votre activité durant l’année précédant la déclaration;/declaration/fondDto/items/items/resultatFiscal
+Valeur vénale du fonds de commerce;Valeur à la date du fait générateur de la déclaration;/declaration/fondDto/items/items/valeur
+Néant;Indique que le déclarant précise ne rien avoir à déclarer;/declaration/fondDto/neant
+Les espèces et les autres biens, dont les comptes courants de société ou les stock-options, d’une valeur supérieure ou égale à 10 000 €;;/declaration/autreBienDto/
+ID;;/declaration/autreBienDto/items/items/motif/id
+Label;;/declaration/autreBienDto/items/items/motif/label
+Commentaire;Commentaire du déclarant sur la rubrique;/declaration/autreBienDto/items/items/commentaire
+Conservee;Indique si le patrimoine est conservé;/declaration/autreBienDto/items/items/conservee
+Description;Description du bien concerné;/declaration/autreBienDto/items/items/description
+Dénomination;Dénomination de la société;/declaration/autreBienDto/items/items/denomination
+Valeur;Valeur vénale;/declaration/autreBienDto/items/items/valeur
+Néant;Indique que le déclarant précise ne rien avoir à déclarer;/declaration/autreBienDto/neant
+Les biens mobiliers, immobiliers et les comptes détenus à l’étranger;;/declaration/bienEtrangerDto/
+ID;;/declaration/bienEtrangerDto/items/items/motif/id
+Label;;/declaration/bienEtrangerDto/items/items/motif/label
+Commentaire;Commentaire du déclarant sur la rubrique;/declaration/bienEtrangerDto/items/items/commentaire
+Conservee;Indique si le patrimoine est conservé;/declaration/bienEtrangerDto/items/items/conservee
+Nature;Description du bien.;/declaration/bienEtrangerDto/items/items/nature
+Localisation;Informations permettant de localiser le bien;/declaration/bienEtrangerDto/items/items/localisation
+Valeur;Valeur vénale en euros;/declaration/bienEtrangerDto/items/items/valeur
+Description;Description du bien;/declaration/bienEtrangerDto/items/items/description
+Néant;Indique que le déclarant précise ne rien avoir à déclarer;/declaration/bienEtrangerDto/neant
+Les éléments du passif, y compris les dettes de nature fiscale;;/declaration/passifDto/
+ID;;/declaration/passifDto/items/items/motif/id
+Label;;/declaration/passifDto/items/items/motif/label
+Commentaire;Commentaire du déclarant sur la rubrique;/declaration/passifDto/items/items/commentaire
+Conservee;Indique si le patrimoine est conservé;/declaration/passifDto/items/items/conservee
+Nom Créancier;Organisme prêteur ou nom du créancier;/declaration/passifDto/items/items/nomCreancier
+Adresse créancier;Adresse du créancier;/declaration/passifDto/items/items/adresseCreancier
+Nature;Nature de la dette;/declaration/passifDto/items/items/nature
+Date passif;Date de constitution de la dette;/declaration/passifDto/items/items/datePassif
+Objet Dette;Objet de la dette;/declaration/passifDto/items/items/objetDette
+Montant;Montant total de la créance;/declaration/passifDto/items/items/montant
+Durée;Durée de l’emprunt;/declaration/passifDto/items/items/duree
+Restant du;Somme restant à rembourser;/declaration/passifDto/items/items/restantDu
+Mensualité;Montant des mensualités;/declaration/passifDto/items/items/mensualite
+Néant;Indique que le déclarant précise ne rien avoir à déclarer;/declaration/passifDto/neant
+Les revenus perçus chaque année depuis le début du mandat ou des fonctions;;/declaration/revenuMandatDto/
+ID;;/declaration/revenuMandatDto/items/items/motif/id
+Label;;/declaration/revenuMandatDto/items/items/motif/label
+Commentaire;Commentaire du déclarant sur la rubrique;/declaration/revenuMandatDto/items/items/commentaire
+Année;Année;/declaration/revenuMandatDto/items/items/annee
+Type de revenu;Brut ou Net;/declaration/revenuMandatDto/items/items/revenuMandatItem0/typeRevenu
+Revenu Elu;Indemnités d’élu;/declaration/revenuMandatDto/items/items/revenuMandatItem0/revenuElu
+Revenu Conjoint;Indemnités du conjoint;/declaration/revenuMandatDto/items/items/revenuMandatItem0/revenuConjoint
+Type de revenu;Brut ou Net;/declaration/revenuMandatDto/items/items/revenuMandatItem1/typeRevenu
+Revenu Elu;Traitements, salaires d'élu;/declaration/revenuMandatDto/items/items/revenuMandatItem1/revenuElu
+Revenu Conjoint;Traitements, salaires du conjoint;/declaration/revenuMandatDto/items/items/revenuMandatItem1/revenuConjoint
+Type de revenu;Brut ou Net;/declaration/revenuMandatDto/items/items/revenuMandatItem2/typeRevenu
+Revenu Elu;Pensions, retraites, rentes d'élu;/declaration/revenuMandatDto/items/items/revenuMandatItem2/revenuElu
+Revenu Conjoint;Pensions, retraites, rentes du conjoint;/declaration/revenuMandatDto/items/items/revenuMandatItem2/revenuConjoint
+Type de revenu;Brut ou Net;/declaration/revenuMandatDto/items/items/revenuMandatItem3/typeRevenu
+Revenu Elu;Revenus professionnels (BNC, BIC, BA) d'élu;/declaration/revenuMandatDto/items/items/revenuMandatItem3/revenuElu
+Revenu Conjoint;Revenus professionnels (BNC, BIC, BA) du conjoint;/declaration/revenuMandatDto/items/items/revenuMandatItem3/revenuConjoint
+Type de revenu;Brut ou Net;/declaration/revenuMandatDto/items/items/revenuMandatItem4/typeRevenu
+Revenu Elu;Revenus de capitaux mobiliers d'élu;/declaration/revenuMandatDto/items/items/revenuMandatItem4/revenuElu
+Revenu Conjoint;Revenus de capitaux mobiliers du conjoint;/declaration/revenuMandatDto/items/items/revenuMandatItem4/revenuConjoint
+Type de revenu;Brut ou Net;/declaration/revenuMandatDto/items/items/revenuMandatItem5/typeRevenu
+Revenu Elu;Revenus fonciers d'élu;/declaration/revenuMandatDto/items/items/revenuMandatItem5/revenuElu
+Revenu Conjoint;Revenus fonciers du conjoint;/declaration/revenuMandatDto/items/items/revenuMandatItem5/revenuConjoint
+Type de revenu;Brut ou Net;/declaration/revenuMandatDto/items/items/revenuMandatItem6/typeRevenu
+Revenu Elu;Autres revenus d'élu;/declaration/revenuMandatDto/items/items/revenuMandatItem6/revenuElu
+Revenu Conjoint;Autres revenus du conjoint;/declaration/revenuMandatDto/items/items/revenuMandatItem6/revenuConjoint
+Type de revenu;Brut ou Net;/declaration/revenuMandatDto/items/items/revenuMandatItem7/typeRevenu
+Revenu Elu;Plus-values mobilières d'élu;/declaration/revenuMandatDto/items/items/revenuMandatItem7/revenuElu
+Revenu Conjoint;Plus-values mobilières du conjoint;/declaration/revenuMandatDto/items/items/revenuMandatItem7/revenuConjoint
+Type de revenu;Brut ou Net ;/declaration/revenuMandatDto/items/items/revenuMandatItem8/typeRevenu
+Revenu Elu;Plus-values immobilières d'élu;/declaration/revenuMandatDto/items/items/revenuMandatItem8/revenuElu
+Revenu Conjoint;Plus-values immobilières du conjoint;/declaration/revenuMandatDto/items/items/revenuMandatItem8/revenuConjoint
+Total Elu;Somme des revenus de l'élu;/declaration/revenuMandatDto/items/items/totalElu
+Total Conjoint;Somme des revenus du conjoint;/declaration/revenuMandatDto/items/items/totalConjoint
+Néant;Indique que le déclarant précise ne rien avoir à déclarer;/declaration/revenuMandatDto/neant
+Les évènements majeurs ayant affecté la composition du patrimoine du déclarant;;/declaration/evenementMajeurDto/
+ID;;/declaration/evenementMajeurDto/items/items/motif/id
+Label;;/declaration/evenementMajeurDto/items/items/motif/label
+Commentaire;Commentaire du déclarant sur la rubrique;/declaration/evenementMajeurDto/items/items/commentaire
+Conservee;Indique si le patrimoine est conservé;/declaration/evenementMajeurDto/items/items/conservee
+Nature;Nature de l’évènement;/declaration/evenementMajeurDto/items/items/nature
+Conséquences;Conséquences sur le patrimoine;/declaration/evenementMajeurDto/items/items/consequences
+Date de l'évenement;Date de l’évènement;/declaration/evenementMajeurDto/items/items/dateEvenement
+Néant;Indique que le déclarant précise ne rien avoir à déclarer;/declaration/evenementMajeurDto/neant
+Observations;;/declaration/observationPatrimoineDto/
+ID;;/declaration/observationPatrimoineDto/items/items/motif/id
+Label;;/declaration/observationPatrimoineDto/items/items/motif/label
+Commentaire;Commentaire du déclarant sur la rubrique;/declaration/observationPatrimoineDto/items/items/commentaire
+Conservee;Indique si le patrimoine est conservé;/declaration/observationPatrimoineDto/items/items/conservee
+Contenu;Observations;/declaration/observationPatrimoineDto/items/items/contenu
+Néant;Indique que le déclarant précise ne rien avoir à déclarer;/declaration/observationPatrimoineDto/neant
+Informations générales;;/declaration/general
+Type de déclarant;Identifiant du type de déclaration;/declaration/general/typeDeclaration/id
+Label Type ;Label du type de déclaration;/declaration/general/typeDeclaration/label
+Label Mandat;Label du mandat;/declaration/general/mandat/label
+Type de mandat;Intitulé du type de mandat;/declaration/general/qualiteMandat/typeMandat
+Code catégorie;Code de la catégorie du mandat;/declaration/general/qualiteMandat/codCategorieMandat
+ Nom catégorie;Nom de la catégorie du mandat;/declaration/general/qualiteMandat/nomCategorieMandat
+ Code Fichier;Extension du fichier;/declaration/general/qualiteMandat/codTypeMandatFichier
+Label mandat;Label du type de mandat;/declaration/general/qualiteMandat/labelTypeMandat
+Label organe;Intitulé de l'organe;/declaration/general/qualiteMandat/labelOrgane
+Code liste organe;Code de la liste des organes;/declaration/general/qualiteMandat/codeListeOrgane
+Texte d'aide;Texte d'aide du mandat;/declaration/general/qualiteMandat/texteAide
+Code organe;Code de la liste des organes;/declaration/general/organe/codeListeOrgane
+Nom organe;Nom de la liste des organes;/declaration/general/organe/nomListeOrgane
+Label organie;Intitulé de l'organe;/declaration/general/organe/labelOrgane
+Label declaration;Intitulé de la déclaration;/declaration/general/organe/labelDeclaration
+Qualité déclarant;Qualité du déclarant;/declaration/general/qualiteDeclarant
+Qualité déclarant PDF;Qualité du déclarant apparant sur le PDF;/declaration/general/qualiteDeclarantForPDF
+Date début mandat;Date de début du mandat;/declaration/general/dateDebutMandat
+Date fin mandat;Date de fin du mandat;/declaration/general/dateFinMandat
+Date dernière déclaration;Date de la dernière déclarant;/declaration/general/dateDernDeclar
+Régime matrimonial;Régime matrimonial du déclarant;/declaration/general/regimeMatrimonial
+Commentaire régime matrimonial;Commentaire sur le régime matrimonial du déclarant;/declaration/general/regimeMatrimonialComments
+Nom société;Nom de la société;/declaration/general/nomSociete
+Nom de la société mère;Nom de la société mère;/declaration/general/nomSocieteMere
+Chiffre affaire;Chiffre d'affaire de la société;/declaration/general/chiffreAffaire
+Nombre de logements;Nombre de logements;/declaration/general/nbLogements
+Civilité;Civilité du déclarant;/declaration/general/declarant/civilite
+Nom;Nom du déclarant;/declaration/general/declarant/nom
+Prénom;Prénom du déclarant;/declaration/general/declarant/prenom
+Email;Adresse électronique du déclarant;/declaration/general/declarant/email
+Téléphone;Numéro de téléphone du déclarant;/declaration/general/declarant/telephone
+Date de naissance;Date de naissance du déclarant;/declaration/general/declarant/dateNaissance
+Voie;Adresse du déclarant;/declaration/general/declarant/adresseDec/voie
+Complément;Complément d'adresse;/declaration/general/declarant/adresseDec/complement
+Code postal;Code postal de l'adresse;/declaration/general/declarant/adresseDec/codePostal
+Ville;Ville de l'adresse;/declaration/general/declarant/adresseDec/ville
+Pays;Pays de l'adresse;/declaration/general/declarant/adresseDec/pays
