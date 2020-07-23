@@ -1,7 +1,7 @@
 # jAvascript notes from day003 (?) (to be verified)
 
 Array have some nice methods like:
-- push() -> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
+- [push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
 - pop()
 - shift()
 - unshift()
